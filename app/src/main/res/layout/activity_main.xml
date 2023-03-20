@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0.5dp"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtSayi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="0"
+        android:inputType="textPersonName"
+        android:paddingTop="60dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="50dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="32sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="c"
+                android:textColor="@color/blue"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnCe"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="CE"
+                android:textColor="@color/blue"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnSilme"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="←"
+                android:textColor="@color/blue"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnBolme"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="÷"
+                android:textColor="@color/blue"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="7"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="8"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="9"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnCarpma"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="×"
+                android:textColor="@color/blue"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="4"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="5"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="6"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnCikartma"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="-"
+                android:textColor="@color/blue"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="1"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="2"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnToplama"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="+"
+                android:textColor="@color/blue"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnYuzde"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="%"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="0"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnVirgul"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text=","
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnEsittir"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:text="="
+                android:textColor="@color/blue"
+                android:textSize="24sp" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
